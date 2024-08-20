@@ -22,7 +22,7 @@
                     "data":{
                         "labels":["Failed","Warning","Not available","Passed"],
                         "values":[1689,681,36,7253],
-                        "backgroundColor":["#265c20","#deaf2c","#e1e8e8","#eb051c"]
+                        "backgroundColor":["#eb051c","#deaf2c","#e1e8e8","#265c20"]
                     }
                 }
                 
