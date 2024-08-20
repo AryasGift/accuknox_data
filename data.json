@@ -1,0 +1,90 @@
+{
+    "categories":[
+        {
+            "id":1,
+            "category":"CSPM Executive Dashboard",
+            "widgets":[
+                {
+                    "id":"widget1",
+                    "type":"doughnut",
+                    "title":"Cloud Accounts",
+                    "data":{
+                        "labels":["connected","Not connected"],
+                        "values":[2,2],
+                        "backgroundColor": [ "#f0f8ff","#36A2EB"]
+                    }
+
+                },
+                {
+                    "id":"widget2",
+                    "type":"doughnut",
+                    "title":"Cloud Account Risk Assessment",
+                    "data":{
+                        "labels":["Failed","Warning","Not available","Passed"],
+                        "values":[1689,681,36,7253],
+                        "backgroundColor":["#265c20","#deaf2c","#e1e8e8","#eb051c"]
+                    }
+                }
+                
+            ]
+        },
+      {
+        "id":2,
+        "category":"CWPP Dashboard",
+        "widgets":[
+            {
+                "id":"widget3",
+                "title":"Top 5 Namespace Specific Alerts",
+                "type":"",
+                "data":{
+                
+                }
+            },
+            {
+                "id":"widget4",
+                "title":"workload alerts",
+                "type":"",
+                "data":{
+             
+                }
+            }
+        ]
+
+      },
+      {
+        "id":3,
+        "category":"Register Scan",
+        "widgets":[
+            {
+              "id":"widget5",
+              "title":"Image Risk Assessment",
+              "type":"stackedBarchart",
+              "data":{
+                "total":"1470 Total vulnerability",
+                "values":[
+                    {"name":"Critical","value":9,"color":"#DC3545"},
+                    {"name":"High","value":150,"color":"#FF7E00"},
+                    {"name":"Medium","value":500,"color":"#FFC107"},
+                    {"name":"Low","value":811,"color":"#FFD700"}
+                ]
+              }
+            },
+            {
+                "id":"widget6",
+                "title":"Image Security issues",
+                "type":"stackedBarchart",
+                "data":{
+                    "total":"2 Total Images",
+                    "values":[
+                        {"name": "Critical", "value": 1, "color": "#DC3545"},
+                        {"name": "High", "value": 2, "color": "#FF7E00"},
+                        {"name": "Medium", "value": 0, "color": "#FFC107"},
+                        {"name": "Low", "value": 0, "color": "#FFD700"}  
+                    ]
+                }
+
+            }
+        ]
+      }
+    ]
+}
